@@ -1,0 +1,151 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+  background: #090029;
+  z-index: 1; 
+}
+
+.toggle-button:focus {
+  outline: 2px solid #4A90E2; 
+  outline-offset: 4px;
+}
+
+html {
+  width: 365px;
+  height: 430px;
+}
+
+.Rectangle1, .Rectangle2, .Rectangle3 {
+  width: 17px;
+  height: 3px;
+  background: #A5A5A5;
+  border-radius: 50px;
+}
+
+.Rectangle1.active, .Rectangle2.active, .Rectangle3.active {
+  background: red;
+}
+
+.toggle-button {
+  display: flex;
+  width: 108.67px;
+  height: 96px;
+  cursor: pointer;
+  padding: 10px 22.5px 10px 20.5px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 15px;
+  border: 2px solid #090029;
+}
+
+.toggle-button svg {
+  height: 32px;
+  width: auto; 
+  flex-shrink: 0;
+}
+
+.conteudo {
+  display: grid; 
+  grid-template-columns: repeat(3, 108px);
+  gap: 12px;
+  margin-top: 60px;
+  justify-content: center; 
+}
+
+.text {
+  color: #9095A2;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+  background: #090029;
+}
+
+html {
+  display: flex;
+  width: 365px;
+  height: 430px;
+}
+
+.Rectangle1, .Rectangle2, .Rectangle3 {
+  width: 17px;
+  height: 3px;
+  background: #A5A5A5;
+  border-radius: 50px;
+}
+
+.Rectangle1.active {
+  background: red; 
+}
+.Rectangle2.active {
+  background: red; 
+}
+.Rectangle3.active {
+  background: red; 
+}
+  
+.toggle-button {
+  display: flex;
+  width: 108.67px;
+  height: 96px;
+  cursor: pointer;
+  padding: 10px 22.5px 10px 20.5px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 15px;
+  border: 2px solid #090029;
+}
+
+.toggle-button svg {
+  height: 32px;
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.conteudo {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 108px);
+  gap: 12px;
+  margin-top: 60px;
+}
+
+.text{
+  color: #9095A2; 
+  text-align: center; 
+  font-family: Arial; 
+  font-size: 13px; 
+  font-style: normal; 
+  font-weight: 700; 
+  line-height: normal;
+}*/
+

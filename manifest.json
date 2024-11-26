@@ -1,0 +1,13 @@
+{
+    "name": "Acessibilidade",
+    "description": "Extensão acessibilidade básica para web",
+    "version": "2.0",
+    "manifest_version": 3,
+    "permissions":["activeTab", "scripting", "tabs"],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+    "*://*/*"
+    ]
+}
