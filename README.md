@@ -316,15 +316,13 @@ A resposta obtida da API, ou seja as labels são em inglês, portanto antes de e
 https://cloud.google.com/translate/?hl=pt-br&authuser=2#pricing
 
 ```json
-    // Solicitação - Request
      requests = {
         q: cat, blue, car,
         source: "en",
         target: "pt",
         format: 'text'
     };
-    
-    //Resultados 
+ 
     {
   "data": {
     "translations": [
